@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="pt-BR" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Flaviana Maria | Portfolio para o Lab da DIO</title>
+  <meta name="description" content="Portfólio da estudante de front-end Flaviana Maria.">
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+  <header class="header">
+    <nav class="header__nav">
+      <ul class="menu menu--principal">
+        <li class="menu__item">
+          <a class="menu__link active" href="#home">
+            <span class="menu__text">Home</span>
+          </a>
+        </li>
+        <li class="menu__item">
+          <a class="menu__link" href="#projetos">
+            <span class="menu__text">Cursos</span>
+          </a>
+        </li>
+        <li class="menu__item">
+          <a class="menu__link" href="#sobre">
+            <span class="menu__text">Sobre</span>
+          </a>
+        </li>
+        <li class="menu__item">
+          <a class="menu__link" href="#contato">
+            <span class="menu__text">Contato</span>
+          </a>
+        </li>
+      </ul>
+    </nav>
+    <div class="header__brand">
+      <a href="#home"></a>
+    </div>
+    <div class="header__toggle">
+      <i id="toggleTheme" class="bi bi-sun"></i>
+    </div>
+  </header>
+  <nav class="nav--mobile">
+    <ul class="menu menu--mobile">
+      <li class="menu__item">
+        <a class="menu__link active" href="#home">
+          <i class="menu__icon bi bi-house-door"></i>
+          <span class="menu__text">Home</span>
+        </a>
+      </li>
+      <li class="menu__item">
+        <a class="menu__link" href="#projetos">
+          <i class="menu__icon bi bi-window-stack"></i>
+          <span class="menu__text">Projetos</span>
+        </a>
+      </li>
+      <li class="menu__item">
+        <a class="menu__link" href="#sobre">
+          <i class="menu__icon bi bi-person"></i>
+          <span class="menu__text">Sobre</span>
+        </a>
+      </li>
+      <li class="menu__item">
+        <a class="menu__link" href="#contato">
+          <i class="menu__icon bi bi-envelope"></i>
+          <span class="menu__text">Contato</span>
+        </a>
+      </li>
+    </ul>
+  </nav>
+
+  <main id="home">
+    <div class="main__content1">
+      <h1>Estudante de Front-end e entusiasta em UX Design.</h1>
+      <p>Flaviana Maria, Brasília-DF.</p> 
+      <ul class="menu menu--social">
+        <li>
+          <a class="menu__link" href="https://github.com/angg3lica" target="_blank">
+            <i class="menu__icon bi bi-github"></i>
+          </a>
+        </li>
+        <li>
+          <a class="menu__link" href="https://www.linkedin.com/in/flaviana-maria/" target="_blank">
+            <i class="menu__icon bi bi-linkedin"></i>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </main>
+
+  <section class="technologies">
+    <h2>Conhecimento básico em:</h2>
+    <ul class="technologies__list">
+      <li class="technologies__item">
+        <img class="technologies__logo" src="assets/images/HTML5_logo.png" alt="Logo HTML">
+      </li>
+      <li class="technologies__item">
+        <img class="technologies__logo" src="assets/images/css3-logo.webp" alt="Logo CSS">
+      </li>
+      <li class="technologies__item">
+        <img class="technologies__logo" src="assets/images/JavaScript-logo.png" alt="Logo JavaScript">
+      </li>
+    </ul>
+  </section>
+
+  <section id="projetos" class="projects">
+    <h2>Cursos</h2>
+    <div class="projects__container">
+      <div class="projects__card">
+        <img class="card__cover" src="assets/images/dio-logo.png" alt="DIO logo">
+        <div class="card__body">
+          <h3 class="card__title">Ri Happy - Front-end do Zero</h3>
+          <p class="card__description">Curso de Front-end.</p>
+          <ul class="card__list">
+            <li class="card__item">Projetos de Landing Page;</li>
+            <li class="card__item">Projetos de jogos com JavaScript;</li>
+          </ul>
+          <ul class="technologies__list">
+            <li class="technologies__item">
+              <img class="technologies__logo" src="assets/images/HTML5_logo.png" alt="Logo HTML">
+            </li>
+            <li class="technologies__item">
+              <img class="technologies__logo" src="assets/images/css3-logo.webp" alt="Logo CSS">
+            </li>
+            <li class="technologies__item">
+              <img class="technologies__logo" src="assets/images/JavaScript-logo.png" alt="Logo JavaScript">
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="projects__card card--reverse">
+        <img class="card__cover" src="assets/images/logo-google.jpg" alt="Google Logo">
+        <div class="card__body">
+          <h3 class="card__title">Certificado Profissional de Google UX Design</h3>
+          <p class="card__description">Curso de UX Design.</p>
+          <ul class="card__list">
+            <li class="card__item">User Experience;</li>
+            <li class="card__item">Figma;</li>
+          </ul>
+          <ul class="technologies__list">
+            <li class="technologies__item">
+              <img class="technologies__logo" src="assets/images/ux-logo.webp" alt="Logo UX Design">
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="projects__card">
+        <img class="card__cover" src="assets/images/alura-share.webp" alt="ALURA Logo">
+        <div class="card__body">
+          <h3 class="card__title">Formação Front-end</h3>
+          <p class="card__description">Curso de Front-end.</p>
+          <ul class="card__list">
+            <li class="card__item">Projeto do Jogo Secreto;</li>
+            <li class="card__item">Projeto do Decodificador de Texto;</li>
+          </ul>
+          <ul class="technologies__list">
+            <li class="technologies__item">
+              <img class="technologies__logo" src="assets/images/HTML5_logo.png" alt="Logo HTML">
+            </li>
+            <li class="technologies__item">
+              <img class="technologies__logo" src="assets/images/css3-logo.webp" alt="Logo CSS">
+            </li>
+            <li class="technologies__item">
+              <img class="technologies__logo" src="assets/images/JavaScript-logo.png" alt="Logo JavaScript">
+            </li>
+            <li class="technologies__item">
+              <img class="technologies__logo" src="assets/images/react-logo.png" alt="Logo React">
+            </li>
+          </ul>
+        </div>
+      </div>
+      <a href="https://github.com/angg3lica">
+        <button class="btn btn--primary">
+          <span>Ver Todos os Projetos</span>
+          <i class="bi bi-arrow-up-right"></i>
+        </button>  
+      </a>
+    </div>
+  </section>
+
+  <section id="sobre" class="about">
+    <div class="about__content1">
+      <img class="about__photo" src="assets/images/flaviana.jpg" alt="Foto de Flaviana Maria">
+      <div class="about__description">
+        <h2>Sobre mim</h2>
+        <p>Flaviana Maria. Apaixonada por k-pop e livros, meu primeiro "Hello World" foi na pandemia quando iniciei um curso de Python (e não terminei), mas achei que tecnologia não era para mim. Esse ano de 2024, iniciei um curso na ALURA de front-end e me identifiquei mais do que naquele curso de Python. Assim descobri o front-end e pesquisando mais, me encontrei no UX Design.
+        </p>  
+        <div class="about__icons">
+          <i class="bi bi-translate"></i>
+          <span>Inglês: Intermediário | Espanhol: Básico</span>
+        </div>
+        <div class="description__buttons">
+          <a href="https://www.linkedin.com/in/flaviana-maria/" target="_blank">
+            <button class="btn btn--primary">
+              <span>Conecte-se Comigo</span>
+              <i class="bi bi-arrow-up-right"></i>
+            </button> 
+          </a>
+          <a href="">
+            <button class="btn">
+              <span>Currículo</span>
+            </button>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="about__content2">
+      <div class="col1">
+        <div class="row1">
+          <h3>Formação</h3>
+          <h4>Nutrição</h4>
+          <span>Ago 2019 - Dez 2023</span>
+          <div class="about__icons">
+            <i class="bi bi-bank"></i>
+            <span>Universidade Cruzeiro do Sul</span>
+          </div>
+          <div class="about__icons">
+            <i class="bi bi-mortarboard"></i>
+            <span>Bacharelado</span>
+          </div>
+        </div>
+        <div class="row2">
+          <h3>Experiências</h3>
+          <h4>Nenhuma</h4>
+      </div>
+  </section>
+  
+  <section id="contato" class="contact">
+    <h2>Contate-me</h2>
+    <p>Estou disponível para serviços e novas conexões. Contate-me via 
+      e-mail e conecte-se comigo através das minhas redes sociais.
+    </p>
+    <ul class="menu menu--social">
+      <li>
+        <a class="menu__link" href="https://github.com/angg3lica" target="_blank">
+          <i class="menu__icon bi bi-github"></i>
+          <span>GitHub</span>
+        </a>
+      </li>
+      <li>
+        <a class="menu__link" href="https://www.linkedin.com/in/flaviana-maria/" target="_blank">
+          <i class="menu__icon bi bi-linkedin"></i>
+          <span>LinkedIn</span>
+        </a>
+      </li>
+    </ul>
+    <a href="mailto:flavianambs14@gmail.com">
+      <button class="btn btn--primary">
+        <span class="email">flavianambs14@gmail.com</span>
+      </button>  
+    </a>
+  </section>
+
+  <footer>
+    <p>
+      © 2024. Portfólio desenvolvido para fins educativos no Lab "Construindo seu Portfolio Front-end do Zero" da 
+      <a href="https://www.dio.me/" target="_blank">Digital Innovation One</a> por 
+      <a href="https://github.com/angg3lica" target="_blank">Flaviana Maria</a>.
+    </p>
+  </footer>
+  <script src="assets/js/scripts.js"></script>
+</body>
+</html>
